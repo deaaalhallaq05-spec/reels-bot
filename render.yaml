@@ -1,6 +1,5 @@
-
 services:
-    - type: worker
+  - type: worker
     name: reels-bot
     env: python
     startCommand: python bot.py
